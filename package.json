@@ -4,12 +4,15 @@
   "description": "",
   "main": "Calculator.js",
   "scripts": {
+    "start": "serve",
     "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^12.7.0",
+    "serve": "^14.2.0",
+    "start-server-and-test": "^2.0.0"
   }
 }
